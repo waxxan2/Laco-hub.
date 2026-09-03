@@ -162,9 +162,8 @@ AutoFarm:AddSwitch("👊 Auto Punch", function(state)
         end
     end
 end)
-local AutoFarm = window:AddTab("Rock")
-local farmTab = window:AddTab("ROCK")
-farmTab:AddLabel("Aqui Puedes Farmear rocas depende tu REBIRTH")
+
+local farmTab = window:AddTab("Rock")
  
 local function gettool()
     for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
