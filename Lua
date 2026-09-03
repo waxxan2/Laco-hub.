@@ -162,3 +162,4 @@ AutoFarm:AddSwitch("👊 Auto Punch", function(state)
         end
     end
 end)
+local AutoFarm = window:AddTab("Rock")
