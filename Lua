@@ -175,7 +175,7 @@ local function gettool()
     game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "rightHand")
 end
  
-local tinyIslandRockSwitch = farmTab:AddSwitch("Isla Pequeña - 0-1k Fuerza", function(bool)
+local tinyIslandRockSwitch = farmTab:AddSwitch("💎 tiny rock 0 - 0-1k Fuerza", function(bool)
     selectrock = "Tiny Island Rock"
     getgenv().autoFarm = bool
  
